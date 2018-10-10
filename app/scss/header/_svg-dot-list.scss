@@ -1,0 +1,15 @@
+.svg-dot-list {
+  display: block;
+
+  &__item {
+
+    &_blink {
+      fill: #ffffff;
+      fill-opacity: 0.09;
+    }
+
+    &_static {
+      fill: #fda41d
+    }
+  }
+}

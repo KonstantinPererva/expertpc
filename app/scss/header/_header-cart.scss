@@ -1,0 +1,34 @@
+.header-cart {
+
+  &__ico {
+    display: block;
+    fill: #ffffff;
+    margin: auto;
+    transition: .15s;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:hover .header-cart__ico {
+      fill: #fda41d;
+    }
+
+    &:active .header-cart__ico {
+      fill: #fda41d;
+    }
+
+    &:hover .header-cart__indicator-full {
+      fill: #ffffff;
+    }
+
+    &:active .header-cart__indicator-full {
+      fill: #ffffff;
+    }
+  }
+
+  &__indicator-full {
+    fill: #fda41d;
+    transition: .15s;
+  }
+}

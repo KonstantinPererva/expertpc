@@ -1,0 +1,32 @@
+.header-nav-link {
+  display: block;
+  padding: 19px 20px;
+  text-decoration: none;
+
+  &:hover {
+
+    & .header-nav-link__text {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    & + .header-nav-list__dropdown {
+      display: block;
+    }
+  }
+
+  &:active .header-nav-link__text {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__text {
+    font-family: $ff-r;
+    font-weight: $fw-r;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #8b8b8b;
+    transition: .15s;
+    letter-spacing: 3px;
+  }
+}

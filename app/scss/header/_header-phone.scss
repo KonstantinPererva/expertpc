@@ -1,0 +1,26 @@
+.header-phone {
+  display: flex;
+  align-items: center;
+
+  &__ico {
+    flex-shrink: 0;
+    display: block;
+    fill: rgba(255,255,255,.2);
+    margin: 0 13px 0 0;
+  }
+
+  &__num {
+    flex-shrink: 0;
+    display: block;
+    font-family: $ff-r;
+    font-weight: $fw-m;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+
+    &:hover, &:active {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}

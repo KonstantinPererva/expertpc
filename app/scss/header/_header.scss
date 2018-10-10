@@ -1,0 +1,13 @@
+.header {
+
+  &__hold {
+    padding: 0 47px;
+  }
+
+  &__line {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: rgba(255,255,255,.1);
+  }
+}
