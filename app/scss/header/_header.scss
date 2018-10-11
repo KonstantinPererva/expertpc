@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 1;
 
   &__hold {
     padding: 0 47px;

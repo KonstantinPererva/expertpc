@@ -1,0 +1,45 @@
+.banner-arrow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  &__item {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+
+    &:hover {
+      outline: none;
+
+      & .banner-arrow__ico {
+        fill: $c-main;
+        fill-opacity: 1;
+      }
+    }
+
+    &_prev {
+      right: 100%;
+    }
+
+    &_next {
+      left: 100%;
+    }
+  }
+
+  &__ico {
+    display: block;
+    fill: #ffffff;
+    fill-opacity: .6;
+    transition: .15s;
+  }
+}

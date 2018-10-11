@@ -1,0 +1,44 @@
+.banner-container {
+  position: relative;
+
+  &__slider {
+    position: relative;
+    z-index: 0;
+  }
+
+  &__corner {
+    position: absolute;
+    z-index: 1;
+
+    &_left-top {
+      left: 6px;
+      top: 6px;
+    }
+
+    &_left-bottom {
+      left: 6px;
+      bottom: 6px;
+    }
+
+    &_right-top {
+      right: 6px;
+      top: 6px;
+    }
+
+    &_right-bottom {
+      right: 6px;
+      bottom: 6px;
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    top: 0;
+    width: 21px;
+    z-index: 3;
+  }
+}
